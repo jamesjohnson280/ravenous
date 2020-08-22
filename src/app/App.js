@@ -1,10 +1,10 @@
 import React from 'react';
-import Business from '../components/business/Business';
+import BusinessList from '../components/business-list/BusinessList';
 import './App.css';
 
 function App() {
   return (
-    <Business />
+    <BusinessList />
   );
 }
 
