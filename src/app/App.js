@@ -1,10 +1,14 @@
 import React from 'react';
-import BusinessList from '../components/business-list/BusinessList';
 import './App.css';
+import BusinessList from '../components/business-list/BusinessList';
+import SearchBar from '../components/search-bar/SearchBar';
 
 function App() {
   return (
-    <BusinessList />
+    <div>
+      <SearchBar />
+      <BusinessList />
+    </div>
   );
 }
 
