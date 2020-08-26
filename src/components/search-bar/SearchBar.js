@@ -43,7 +43,7 @@ class SearchBar extends React.Component {
       <div className="SearchBar">
         <div class="SearchBar-sort-options">
           <ul>
-            {this.renderBySortByOptions}
+            {this.renderBySortByOptions() }
           </ul>
         </div>
         <div className="SearchBar-fields">
