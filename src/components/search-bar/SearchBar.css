@@ -62,6 +62,7 @@
 }
 
 .SearchBar-submit button {
+  border: none;
   border-radius: 4px;
   padding: .72rem 1.7rem;
   background-color: #cca353;
